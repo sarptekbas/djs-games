@@ -207,7 +207,8 @@ class ConnectFour {
                     }
 
                     player = (player + 1) % 2;
-
+                    
+                    // sends the final embed
                     const newEmbed = new discord.MessageEmbed()
                         .setTitle(`${gameData[player].playerColor} -  It's your turn, ${gameData[player].member.username}!`)
                         .setDescription(renderBoard(board))
