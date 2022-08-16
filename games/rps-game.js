@@ -181,7 +181,7 @@ class RockPaperScissors {
         }
     }
 	} else {
-		i.reply({ content: `These buttons aren't for you!`, ephemeral: true });
+		i.reply({ content: `This is not your game!`, ephemeral: true });
 	}
 });
 
